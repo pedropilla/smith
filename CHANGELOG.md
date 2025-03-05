@@ -1,5 +1,27 @@
 # Changelog
 
+## 3.6.0
+
+### Minor Changes
+
+-   8900df7: Added support for defined events and tracking of task creation completion message generation and tool usage
+-   ffae0b9: Added Cline as a new provider with native authentication, account management, and credit limit handling. Updates include:
+    -   Native authentication flow with email and Google OAuth
+    -   Account management page showing user information
+    -   Credit limit error handling and UI
+    -   Updated welcome experience with Cline login option
+    -   Integration using OpenRouter request format
+    -   Firebase customer state persistence"
+
+### Patch Changes
+
+-   0ce66ef: Fixed problem with “win+shift+a” shortcut not working in Windows
+-   10f8637: Better Openrouter error typing and throwing more detailed messages
+-   b4b307e: Removed legacy support from checkpoints, optimized checkpoint operations
+-   e231cfd: Add webview to lint job
+-   ab47580: add gemini models to vertex
+-   49f0c92: add claude 3.7 + claude 3.5 gov for AskSage
+
 ## [3.5.1]
 
 -   Add timeout option to MCP servers
